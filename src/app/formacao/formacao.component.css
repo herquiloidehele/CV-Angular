@@ -1,0 +1,26 @@
+h1.titulo{
+  color: white;
+}
+
+div.progresso a.anos{
+
+  padding: 15px 25px;
+  color: #999999;
+  border: 0.2px solid #cbcbcb;
+  text-align: center;
+  font-size: 16px;
+}
+
+div.progresso .nivel{
+  color: #fced01;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+div.progresso .descricao{
+  color: #999999;
+  font-size: 16px;
+  margin-top:10px;
+}
+
+

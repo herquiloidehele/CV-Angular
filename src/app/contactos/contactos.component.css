@@ -1,0 +1,71 @@
+H1{
+  color: white;
+  text-align: center;
+}
+
+div#contactos{
+  margin: 90px 0px;
+}
+
+div.item-contacto{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+}
+
+
+
+
+div.item-contacto i{
+  color: #fced01;
+  align-self: center;
+  margin-right: 40px;
+}
+
+div.item-contacto h5{
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+div.item-contacto p{
+  color: #999999;
+}
+
+div#formulario{
+  margin-top: 20px;
+}
+
+div#formulario input, textarea{
+  background-color: black;
+  border: 1px solid;
+  margin-bottom: 50px;
+  border-radius: 0;
+}
+
+div#formulario input{
+  height: 50px;
+}
+
+div#formulario input:focus, textarea:focus{
+  border-color: #fced01;
+  background-color: black;
+}
+
+div#formulario textarea{
+  height: 250px;
+}
+
+div#formulario button.enviar{
+  color: black;
+  background-color: #fced01;
+  border-radius: 0;
+  font-size: 15px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+

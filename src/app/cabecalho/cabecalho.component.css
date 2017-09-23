@@ -1,0 +1,40 @@
+#cabecalho-div{
+  height: 100%;
+  width: 100%;
+}
+
+
+#cabecalho-imagem{
+  height: 100%;
+  background-image: url("../../assets/img/IMG-20170321-WA0003-2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-clip: content-box;
+}
+
+#cabecalho-info{
+  height: 100%;
+  background-color: #000;
+}
+
+#cabecalho-info .info h4{
+  color: #ffffff;
+  font-size: 24pt;
+}
+
+#cabecalho-info .info h2{
+  color: #ffffff;
+  font-size: 40pt;
+}
+
+#cabecalho-info .info p{
+  color: #888;
+  font-size: 15pt;
+}
+
+#cabecalho-info .info button{
+  background-color: yellow;
+  font-size: 15pt;
+  border-radius: 0%;
+}

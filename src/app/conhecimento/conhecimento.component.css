@@ -1,0 +1,41 @@
+#div-foto{
+  background-image: url("../../assets/img/20170324_122243.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+}
+
+#div-conhecimento div{
+  color: white;
+}
+
+p{
+  color: #999999;
+}
+
+
+#div-conhecimento ul{
+  list-style: none;
+  color: white;
+  margin-left: 0;
+}
+
+#div-conhecimento ul li.elemnto{
+  margin-bottom: 40px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+#div-conhecimento ul li.elemnto i{
+  margin-right: 20px;
+  align-self: center;
+  color: #fced01;
+}
+
+
+

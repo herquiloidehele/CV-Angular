@@ -1,0 +1,14 @@
+hr{
+  color: #999999;
+  width: 100%;
+}
+
+div{
+  color: #999999;
+  margin: auto;
+  text-align: center;
+}
+
+div p{
+  margin: 0px;
+}

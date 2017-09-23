@@ -1,0 +1,140 @@
+p{
+  color: white;
+}
+
+div#descricao{
+  margin-top: 80px;
+}
+
+div#descricao #descricao-texto h3{
+  color: white;
+  font-size: 25pt;
+}
+
+div#descricao-texto p{
+  font-family: Raleway, sans-serif;
+  font-size:16px;
+  color: #999999;
+}
+
+div#descricao-texto h3.assinatura{
+  font-family: "Dancing Script", cursive;
+  color: rgba(4, 5, 2, 0.2);
+  font-size: 30px;
+  text-transform: capitalize;
+  -moz-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+  margin: 70px;
+}
+
+
+.progress{
+  height: 10px;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 30px;
+  background-color: #cbcbcb;
+  overflow: visible;
+}
+
+.progress-bar{
+  height: 10px;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #fced01;
+  position: relative;
+  animation: animate-positive 2s;
+}
+
+
+.progress-bar:after{
+  content: "";
+  display: block;
+  border: 15px solid transparent;
+  border-bottom: 21px solid transparent;
+  position: absolute;
+  top:-26px;
+  right: -12px;
+
+}
+
+
+.progress-bar-value{
+  font-size:15px;
+  font-weight: 700;
+  color: #999;
+  position: absolute;
+  top: -40px;
+  right: 0;
+}
+
+
+
+.progress .progress-bar:after{
+  border-bottom-color: #fced01;
+}
+
+.progress-title{
+  font-weight:400;
+  font-size: 12pt;
+  margin: 50px 0 20px;
+  color: #999999;
+}
+
+#descricao-texto ul{
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+#descricao-texto ul li{
+  display: inline;
+  margin: 30px;
+  border-radius: 50%;
+}
+
+.social-network a.icos:hover {
+  background-color: #fced01
+}
+
+ul.social-network li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 16px
+}
+
+ul.social-network li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center
+}
+
+ul.social-network li a:hover i {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+  color: #000
+}
+
+ul.social-network li i {
+  color: #8f8f8f;
+  -webkit-transition: all .8s;
+  -moz-transition: all .8s;
+  -o-transition: all .8s;
+  transition: all .8s
+}
+
+

@@ -1,0 +1,19 @@
+
+  <nav id="menu-principal" class="navbar navbar-inverse navbar-toggleable-md bg-faded container  fixed-top navbar-custom">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menu-opcoes" aria-controls="menu-opcoes" aria-expanded="false" aria-label="Opcoes do menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <a href="#cabecalho-link"  (click)="onClickMenu('#cabecalho-link')" class="apelido"><h2 class="navbar-brand"><span class="apelido-h">H</span>ele</h2></a>
+
+
+    <div   class="collapse navbar-collapse" id="menu-opcoes">
+      <ul class="navbar-nav ml-auto" #ulMenu>
+          <li class="nav-item hvr-forward" (click)="onClickMenu('#sobre-link')"><a class="nav-link" href="#sobre-link"  >sobre</a></li>
+          <li class="nav-item hvr-forward" (click)="onClickMenu('#conhecimento-link')"><a pageScroll class="nav-link" href="#conhecimento-link">Conhecimento</a></li>
+          <li class="nav-item hvr-forward" (click)="onClickMenu('#formacao-link')"><a pageScroll class="nav-link" href="#formacao-link">Formacao</a></li>
+          <li class="nav-item hvr-forward" (click)="onClickMenu('#contactos-link')"><a pageScroll class="nav-link" href="#contactos-link">contactos</a></li>
+      </ul>
+    </div>
+  </nav>

@@ -1,0 +1,48 @@
+
+
+.navbar-custom {
+  background-color: rgba(0, 0, 0, .9);
+  border-color: transparent
+}
+
+nav#menu-principal{
+  border:none;
+  box-shadow: 1px 2px 0px #111;
+  background: black;
+}
+
+
+nav#menu-principal .apelido h2{
+  font-size:32pt;
+  font-weight: bolder;
+  font-family: Farisi;
+}
+
+nav#menu-principal .apelido span.apelido-h{
+  color: yellow;
+  font-family: Athelas;
+}
+
+nav#menu-principal .collapse .nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+
+}
+
+nav#menu-principal .nav-item {
+  margin-left: 40px;
+  padding: 10px 0px;
+}
+
+.nav-item a{
+  color: #999999;
+}
+
+.nav-item:hover a{
+  color: yellow;
+}
+
+
+div#menu-opcoes ul li{
+  text-align: center;
+}
